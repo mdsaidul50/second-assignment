@@ -359,11 +359,41 @@ footer{
         
     }
     .footer{
-       grid-template-columns: repeat(3,1fr);
+       grid-template-columns: repeat(3,1.5fr);
     }
     .goal-imges img {
         width: 70%;
         padding-left: 100px;
     }
+    .icon-continer{
+        margin-left: 200px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    .game-continer{
+        flex-direction: column;
+        
+    }
+    .game-album{
+        margin-left: 250px;
+    }
+    .game-album img{
+        width: 300px;
+
+    }
+    .game-album p{
+        margin-bottom: 20px;
+    }
+    .game-name-continer{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .logo-1{
+        grid-template-columns: repeat(2,.1fr);
+        margin-left: 250px;     
+}
+.icon-continer{
+    margin-left: 250px;
+}
 }
 
