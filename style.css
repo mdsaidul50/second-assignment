@@ -54,7 +54,7 @@
     padding-right: 88px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background: rgba(11, 2, 35, 0.10); 
+    background: rgba(11, 2, 35, 0.10);
     border: none;
     border-radius: 10px;
 }
@@ -132,28 +132,188 @@
     width: 300px;
 }
 
+.funny-game {
+    text-align: center;
+}
+
+.funny-game h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.funny-game span {
+    color: #F948B2;
+}
+
+.funny-game p {
+    color: #534C64;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+.game-continer {
+    display: flex;
+    justify-content: center;
+}
+
+.game-album {
+    margin-left: 20px;
+    border-radius: 16p;
+    width: 200px;
+}
+
+.game-album img {
+    width: 200px;
+}
+
+.game-album p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.install-continer {
+    display: flex;
+    justify-content: center;
+}
+
+.install-text {
+    text-align: center;
+    width: 24%;
+    margin-right: 60px;
+    align-items: center;
+    margin-top: 70px;
+}
+.install-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.install-text p{
+    color: #534C64;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.install-img {
+    width: 30%
+}
+
+.install-imges img {
+    width: 400px;
+    margin-left: 50px;
+}
+
+.install-imges-1 img {
+    width: 150px;
+    margin-top: -150px;
+    margin-left: 10px;
+}
+.game-name-continer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 20px;
+    
+}
+.game-name{
+    border: solid 2px wheat;
+    width: 180px;
+    height: 47px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    
+}
+.game-name img{
+    width: 30px;
+    position: absolute;
+    margin-top: 5px;
+}
+.game-name span{
+    position: relative;
+    margin-left: 38px;
+    font-size: 13px;
+    margin-top: 10px;
+    position: absolute;
+}
+footer{
+    background-color: #0B0223;
+}
+.footer{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer li{
+    list-style: none;
+    color: #fff;
+}
+.logo-1{
+    width: 35%;
+    display: flex;
+    padding-left: 10px;
+    margin-left: 350px;
+    
+}
+
+.logo-1 img {
+    width: 53px;
+    height: 38px;
+    padding-top: 30px;
+    margin-right: 10px;
+}
+
+.heding-1 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: -10px;
+    color: #fff;
+}
+
+.heding-1 span {
+    color: #F948B2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 @media screen and (max-width:576px) {
+
     .continer,
-     .goal-continer{
+    .goal-continer,
+    .game-continer,
+    .install-continer {
         flex-direction: column;
     }
-    .menu nav ul li{
+
+    .menu nav ul li {
         display: block;
         margin-left: 50px;
     }
-    .menu nav li{
+
+    .menu nav li {
         margin-bottom: 10px;
     }
-    .goal-text{
+
+    .goal-text {
         width: 100%;
         padding-bottom: 50px;
     }
-    .goal-imges{
-        padding-left: 100px;
-        
+    .game-album{
+        margin-left: 130px;
+    }
+    .game-album img{
+        width: 300px;
     }
     
+    
+
 }
