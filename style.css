@@ -235,9 +235,10 @@
 }
 footer{
     background-color: #0B0223;
+    height: 350px;
 }
 .footer{
-    margin: 100px;
+   margin: 0px 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -247,7 +248,7 @@ footer{
 }
 .logo-1{
     width: 35%;
-    display: flex;
+    display: grid;
     padding-left: 10px;
     margin-left: 350px;
     
@@ -270,6 +271,37 @@ footer{
 .heding-1 span {
     color: #F948B2;
 }
+.icon-continer{
+    display: flex;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.icon-imges{
+   margin: 10px;
+}
+.icon-imges img{
+    width: 40px;
+}
+.footer-1{
+    margin: 20px 200px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .footer-1 li{
+     list-style: none;
+     color: #fff;
+     font-weight: 300;
+     font-size: 13px;
+ }
+ .copy{
+    color:rgba(255, 255, 255, 0.60);
+    margin-top: 30px;
+    
+    font-size: 16px;
+    text-align: center;
+ }
+
+
 
 
 
@@ -313,7 +345,25 @@ footer{
     .game-album img{
         width: 300px;
     }
-    
-    
-
+    .install-text{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .game-name-continer{
+        grid-template-columns: repeat(2,2fr);
+    }
+    .logo-1{
+        grid-template-columns: repeat(2,.1fr);
+        margin-left: 150px;
+        
+        
+    }
+    .footer{
+       grid-template-columns: repeat(3,1fr);
+    }
+    .goal-imges img {
+        width: 70%;
+        padding-left: 100px;
+    }
 }
+
