@@ -249,7 +249,8 @@ footer{
 }
 .footer{
    margin: 0px 100px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
     justify-content: space-between;
 }
 .footer li{
@@ -369,7 +370,7 @@ footer{
         
     }
     .footer{
-       grid-template-columns: repeat(3,1.5fr);
+       grid-template-columns: repeat(3,1fr);
     }
     .goal-imges img {
         width: 70%;
@@ -391,6 +392,7 @@ footer{
         flex-direction: column;
         
     }
+
     .game-album{
         margin-left: 150px;
         max-width: 1400px;
