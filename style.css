@@ -165,6 +165,16 @@
 .game-album img {
     width: 200px;
 }
+.fa-regular{
+    position: absolute;
+    margin-left: -118px;
+    margin-top: 90px;
+}
+.fa-regular p{
+    font-size: 16px;
+    color: rgb(0, 255, 42);
+    margin-left:-15px ;
+}
 
 .game-album p {
     font-size: 16px;
@@ -235,7 +245,7 @@
 }
 footer{
     background-color: #0B0223;
-    height: 350px;
+    height: 380px;
 }
 .footer{
    margin: 0px 100px;
@@ -248,9 +258,10 @@ footer{
 }
 .logo-1{
     width: 35%;
-    display: grid;
+    display: flex;   
     padding-left: 10px;
     margin-left: 350px;
+    padding-top:50px;
     
 }
 
@@ -296,7 +307,6 @@ footer{
  .copy{
     color:rgba(255, 255, 255, 0.60);
     margin-top: 30px;
-    
     font-size: 16px;
     text-align: center;
  }
@@ -368,18 +378,25 @@ footer{
     .icon-continer{
         margin-left: 200px;
     }
+    .fa-regular{
+        margin-left: 129px;
+        margin-top: -200px;
+}
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
-    .game-continer{
+    .game-continer,
+    .goal-continer,
+    .install-continer {
         flex-direction: column;
         
     }
     .game-album{
-        margin-left: 250px;
+        margin-left: 150px;
+        max-width: 1400px;
     }
     .game-album img{
-        width: 300px;
+        width: 500px;
 
     }
     .game-album p{
@@ -395,5 +412,22 @@ footer{
 .icon-continer{
     margin-left: 250px;
 }
+.fa-regular{
+    margin-left: 240px;
+    margin-top: -235px;
+}
+.goal-text{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.goal-imges img{
+    width: 100%;
+}
+.install-text{
+    width: 100%;
+    margin-bottom: 30px;
+}
+    
+
 }
 
